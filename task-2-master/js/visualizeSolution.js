@@ -268,34 +268,7 @@
         // первый пустой слой
         countArrayCurrentCells = addCurrentCells(arrayCurrentCells, countArrayCurrentCells, N, M, cellsCheckOneStep);
 
-        // function isIsland(k, f) {
-        //
-        //     var temp = cellsCheck[k][f];
-        //     cellsCheck[k][f] = 3;// пометка что ячейка текущая
-        //     countArrayCurrentCells = addCurrentCells(arrayCurrentCells, countArrayCurrentCells, N, M, cellsCheck);
-        //     cellsCheck[k][f] = temp;// возвращаем свою метку
-        //
-        //     if (cellsCheck[k][f] == 2)//если часть другого острова
-        //     {
-        //         return true;
-        //     }
-        //
-        //
-        //     if (tempMap[k][f] == 0)// если не остров, возвращаемся
-        //     {
-        //         cellsCheck[k][f] = 1;// пометка что ячейка вода
-        //         return true;
-        //     }
-        //
-        //     cellsCheck[k][f] = 2;// пометка что ячейка остров
-        //
-        //     if (k < N - 1) {
-        //         isIsland(k + 1, f);
-        //     }
-        //     if (f < M - 1) {
-        //         isIsland(k, f + 1);
-        //     }
-        // }
+
 
 
         var vertex = new Array();
